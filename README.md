@@ -8,7 +8,7 @@
 
 1.  Create a file called <mark>name.txt </mark> with the class names separated by newlines.
 
-2. Put both the  <mark>name.txt </mark> and  <mark>convert.py </mark> files in the folder containing the *XML* annotation files.
+2. Put both the  *name.txt* and  *convert.py* files in the folder containing the *XML* annotation files.
 
 3. Run the script
 
