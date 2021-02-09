@@ -70,12 +70,12 @@ for files in xml_files:
     except:
         print(os.path.basename(files), 'Invalid XML file')
         invalid_files.append(os.path.basename(files)+'\n')
-
-
-with open(path + '\\' + 'invalid_files.txt', 'a+') as output_file:
-    output_file.write(invalid_files)
     
 print('\nCompleted')
 print(total_count, 'files converted successfully\n')
-print(total - total_count, 'ivalid files')
-print('See invalid file list in invalid_files.txt')
+
+if len(invalid_files) > 0:
+    with open(path + '\\' + 'invalid_files.txt', 'a+') as output_file:
+        output_file.write(invalid_files)
+    print(total - total_count, 'ivalid files')
+    print('See invalid file list in invalid_files.txt')
