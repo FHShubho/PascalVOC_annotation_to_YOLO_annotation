@@ -15,7 +15,7 @@
    ```
    python convert.py
    ```
-3. If the script run into any invalid xml files, list of the files can be found in *invalid_files.txt*
+3. If the script run into any invalid xml files, names of the files can be found in *invalid_files.txt*
    
 
 #### PascalVoc XML annotation format example
