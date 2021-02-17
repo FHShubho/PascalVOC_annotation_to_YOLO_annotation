@@ -53,7 +53,7 @@ for files in xml_files:
             xmin = float(box[0].text)
             ymin = float(box[1].text)
             xmax = float(box[2].text)
-            ymax = float(box[0].text)
+            ymax = float(box[3].text)
 
             x = (xmax + xmin) / (width * 2)
             y = (ymax + ymin) / (height * 2)
